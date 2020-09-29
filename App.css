@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  
+  } 
+  
+  body {
+      background-color: #4e657a;
+      font-family: Poppins,Helvetica,sans-serif;
+      color: #fff;
+  }
+  .App{
+      margin-top: 50px;
+  
+  
+  }

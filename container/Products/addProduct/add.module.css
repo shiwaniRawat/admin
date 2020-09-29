@@ -1,0 +1,247 @@
+.MainDivWrapper{
+    background-color: #435c70;
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    max-width: 850px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+} 
+
+.PageTitle{
+    font-size: 1.4rem;
+    padding-left: 20px; 
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+} 
+.PageData{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.formData , .userImage{
+    width: 50%;
+    padding: 0 20px;
+} 
+.submitBtn{
+    cursor: pointer; 
+    display: block;
+    width: 100%; 
+    text-transform: uppercase; 
+    transition: all .2s ease;
+    max-width: 100%;
+    text-align: center; 
+    border-radius: 0;
+    padding: 13px 28px; 
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+} 
+.FormFields{
+    width: 100%;
+    padding: 0; 
+    margin-bottom: 15px; 
+} 
+
+.FormFields label {
+    color: #fff;
+    margin-bottom: 10px; 
+    display: inline-block;
+
+} 
+.FormInp{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0;
+    height: 50px; 
+    background-color: #54657d;
+    color: #fff;
+
+}
+.textarea{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;  
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0; 
+    background-color: #54657d;
+    color: #fff; 
+    height: auto;
+} 
+
+.selectValue{
+    width: 100%;
+    border: none;
+    color: #acc6de;
+    height: 50px;
+    appearance: none;
+    border-radius: 0;
+    padding: 0 15px;
+    font-size: 1.2em;
+    background-color:  #50657b;
+}
+.Stocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.StockDate{
+    width: 100%;
+    padding: 0; 
+    margin-bottom: 15px;
+} 
+.expireDateInp{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0;
+    height: 50px; 
+    background-color: #54657d;
+    color: #fff; 
+    cursor: pointer;
+} 
+.StocksAvail{
+    padding-left: 10px !important; 
+    width: 100%;
+    padding: 0; 
+    margin-bottom: 15px;
+
+}
+.StocksAvailData{
+    background-color: #54657d;
+    color: #fff; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0;
+    height: 50px; 
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+} 
+.sold{
+    padding-left: 10px !important; 
+    width: 100%;
+    padding: 0; 
+    margin-bottom: 15px;
+} 
+.soldData{
+    background-color: #54657d;
+    color: #fff; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0;
+    height: 50px; 
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+
+}
+.uploadIcon{
+    background: #455c71;
+    width: 55px !important;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+ 
+.defaultIcon{
+    max-width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #aaa; 
+} 
+button{
+    outline:none ;
+}
+
+.userImage{
+    width: 50%;
+    padding: 0 20px;  
+} 
+.ImageData{
+    margin-bottom: 1rem;  
+} 
+
+.Inputfile{
+    display: none ; 
+} 
+.uploadbtn{
+    border-radius: 0;
+    padding: 13px 28px; 
+    transition: all .2s ease;
+    max-width: 100%;
+    text-align: center;
+    cursor: pointer; 
+    display: block;
+    width: 100%; 
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+} 
+.uploadbtn:hover{
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+
+} 
+input{
+    outline:none ; 
+} 
+.Stocks label {
+margin-bottom: 10px; 
+display: inline-block;
+
+}
+@media screen and (max-width: 1199px) {
+    .PageTitle {
+      padding-left: 0;
+    }
+    .PageData {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .formData {
+      width: 100%;
+      padding: 0;
+    }
+    .userImage {
+      width: 100%;
+      padding: 0;
+    }
+  }

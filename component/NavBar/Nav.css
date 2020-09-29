@@ -1,0 +1,48 @@
+.is-active > div {
+    background-color: #f5a623;
+  }
+  .is-active > div:hover {
+    color: white;
+  }
+  .hidden-menu {
+    width: 180px;
+    position: absolute;
+    padding: 0;
+    top: 80px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #567086;
+    text-align: center;
+  }
+  .show {
+    height: 190px;
+    box-shadow: 0 1px 0 1px hsla(0, 0%, 100%, 0.1);
+    overflow: visible;
+  }
+  .hide {
+    height: 0;
+    box-shadow: unset;
+    overflow: hidden;
+  }
+  
+  .hidden-menu .hidden-object {
+    margin: 0;
+    letter-spacing: 0.3px;
+  }
+  .hidden-menu > a > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .hidden-menu > a > div > svg {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  .hidden-object:hover {
+    color: #f5a623;
+  }
+  .hidden-menu > a > div > p {
+    margin: 0;
+    font-size: 17px;
+  }

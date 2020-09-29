@@ -1,0 +1,168 @@
+.FirstBlock{
+    width: 70%; 
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+} 
+.TableWrapper{
+    background-color: #435c70;
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+} 
+.TableBtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    width: 100%; 
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+} 
+.TableDeleteBtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    width: 100%; 
+    text-transform: uppercase; 
+    cursor: pointer;
+
+
+} 
+.TableDeleteBtn:hover{
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+}
+
+
+
+.Product_TableWrap{
+    max-height: 435px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    width: 100%;
+
+
+
+} 
+.TableRow{
+    padding: 0px 1px;
+
+} 
+
+.TableData{
+    text-align: center; 
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%; 
+    font-size: 85%;
+    border-collapse: collapse;
+} 
+
+.MainRow{
+border: 1px solid #415a70;
+padding: 0!important;
+width: 100%; 
+border-spacing: 2px;
+} 
+
+.checkinputbox{
+    border: 1px solid #415a70;
+    border-bottom: unset;
+    width: 50px!important;
+    padding: 0!important;
+
+} 
+
+td{
+    height: 80px; 
+    padding: 18px 5px;
+    width: 16.66667%;
+} 
+
+input[type=checkbox] {
+    cursor: pointer;
+    /* appearance: none; */
+    background-color: #394e64;
+    background-position: 50%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px; 
+    outline : none ; 
+} 
+
+.ProductName{
+    font-size: .95rem;
+    font-weight: 600;
+
+} 
+
+th{
+    width: 16.66667%;  
+    padding: 18px 5px;
+    height: 80px;
+} 
+
+.dltIcon{
+    border: 1px solid #415a70;
+    border-bottom: unset;
+    width: 50px!important;
+    padding: 0!important; 
+
+
+} 
+.Table{
+
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 85%;
+    border-collapse: collapse; 
+    padding: 18px 5px;
+    height: 80px;
+} 
+
+.deleteIcon {
+    font-size: 1.1rem;
+    color: #fff;
+
+
+} 
+
+.deleteIconWrap{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #394e64;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center; 
+    cursor: pointer;
+
+}@media screen and (max-width: 1199px) {
+    .MainBlock {
+      width: 100%;
+    }
+    .ProductTableWrapper {
+      padding: 20px;
+    }
+  }

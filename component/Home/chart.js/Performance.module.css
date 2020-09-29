@@ -1,0 +1,41 @@
+.performance{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 50%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 350px;
+} 
+
+.performance div {
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0#455c71;
+    max-height: 450px;
+    background-color: #435c70;
+} 
+
+.performance div h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 1200px) {
+    .performance {
+      width: 100%;
+      max-width: 60%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .performance {
+      max-width: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .performance {
+      max-width: 100%;
+    }
+  }

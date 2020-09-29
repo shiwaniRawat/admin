@@ -1,0 +1,80 @@
+.main{
+    margin-top:50px;
+}
+
+.LoginForm{
+    background-color: #435c70;
+    padding: 40px;
+    max-width: 470px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+} 
+
+.LoginForm h2 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+
+} 
+.LoginForm input {
+
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    border-bottom: 4px solid transparent; 
+    outline: none;
+
+} 
+.LoginForm input , .LoginForm button {
+    width: 100%;
+} 
+.loginVal, .passVal {
+     display: none;
+    font-size: .9em;
+    text-align: left;
+    color: #e15d44;
+} 
+.LoginForm div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} 
+.LoginForm button {
+    outline: unset;
+    padding: 13px 28px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    font-size: 90%;
+    font-weight: 600;
+    background-color: #f5a623;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    text-transform: uppercase; 
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+} 
+
+.LoginForm span {
+    margin: 10px 0;
+} 
+.LoginForm button:hover {
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+} 
+
+.fall{
+    display: none !important;
+} 
+.ConditionLi1{
+    color: darkorange;
+
+
+}@media (max-width: 800px) {
+}

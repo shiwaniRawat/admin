@@ -1,0 +1,315 @@
+.userdltbtn:hover ,.UpdateBtn:hover ,.updbtn:hover{
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+}
+
+.MainPageContainer{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+} 
+.AccountSelectorWrapper{
+    background-color: #435c70;
+    padding: 40px;
+}
+.AccountSelectorTitle{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+} 
+.selectorInp{
+    width: 100%;
+    border: none;
+    color: #acc6de;
+    height: 50px;
+    appearance: none;
+    border-radius: 0;
+    padding: 0 15px;
+    font-size: 1.2em;
+     background-color: #50657b; 
+     outline : none ; 
+     transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+.DetailSectionWrapper{
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap; 
+
+} 
+
+.LeftSideImageWrapper{
+    max-width: 425px;
+    width: 37%;
+} 
+.UserImage{
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: auto; 
+    background-color: #435c70; 
+    max-height: none;
+} 
+.UserImgTitle{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+} 
+.UserImgContainer{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}  
+.UserImgContainer:hover .dltIcon {
+display: block;
+
+}
+
+
+.RightSectionWrapper{
+    max-width: 822px;
+    width: 60%;
+} 
+.AccountDetailsWrapper{
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: auto;
+    background-color: #435c70;
+    max-height: none;
+} 
+.dltIcon{ 
+    display: none;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    z-index: 1000;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: rgba(57,78,100,.7);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: all .2s ease; 
+    color: white;
+
+}  
+
+
+.UserAvatar{
+    margin-bottom: 1.5rem!important; 
+    max-width: 100%;
+    height: auto; 
+    width: 345px; 
+    vertical-align: middle;
+    border-style: none;
+}
+* {
+    box-sizing: border-box;
+} 
+.updbtn{
+    cursor: pointer; 
+    display: block;
+    width: 100%; 
+    text-transform: uppercase; 
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all .2s ease;
+    max-width: 100%;
+    text-align: center; 
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+} 
+.fileupload{
+    outline: unset; 
+   display: none;
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+} 
+.RightSideTitle{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+} 
+.RightSideFormWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+.FormElements{
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 5px 10px;
+}
+.FormInput{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-clip: padding-box; 
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0;
+    padding: 10px 18px;
+    border-radius: 0;
+    height: 50px;  
+    background-color: #54657d;
+    color: #fff;
+}  
+.UpdateBtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600; 
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all .2s ease;
+    max-width: 100%;
+    text-align: center; 
+    text-transform: uppercase; 
+    display: block;
+    width: 100%; 
+    cursor: pointer; 
+    outline: none;
+} 
+.dltuserbtnwrapper{
+    flex: 0 0 100%;
+    max-width: 100%; 
+    margin-bottom: 15px;
+    width: 50%;
+    padding: 5px 10px;
+} 
+.userdltbtn{
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600; 
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all .2s ease;
+    max-width: 100%;
+    text-align: center; 
+    text-transform: uppercase; 
+    display: block;
+    width: 100%; 
+    cursor: pointer; 
+    outline: none;
+} 
+.accountpageoverlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+    cursor: pointer;
+} 
+.AccountPopUp{
+    display: none;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    border-radius: 10px;
+    left: 50%;
+    padding: 20px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #394f62;
+    box-shadow: 1px 1px 4px 0 #455c71;
+    z-index: 5;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+} 
+.AccountPopUp button{
+    outline: unset;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid#f5a623;
+    font-weight: 600;
+    padding: 5px 28px;
+    transition: all .2s ease;
+    width: 100%;
+    text-align: center;
+
+
+} 
+.AccountPopUp h2 {
+    font-size: 1.2em;
+} 
+.RightSideFormWrapper label {
+    color: #fff;
+    margin-bottom: 10px; 
+    display: inline-block;
+
+}
+input{
+    outline: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .MainPageContainer {
+      padding: 10px 20px;
+    }
+    .DetailSectionWrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .LeftSideImageWrapper {
+      width: 100%;
+    }
+    .UserImage {
+      padding: 40px 20px;
+    }
+  
+    .RightSectionWrapper {
+      width: 100%;
+      margin-top: 30px;
+    }
+    .AccountDetailsWrapper {
+      padding: 40px 20px;
+    }
+    .RightSideFormWrapper {
+      flex-direction: column;
+    }
+    .FormElements {
+      width: 100%;
+    }
+    .dltuserbtnwrapper {
+      width: 100%;
+    }
+  }

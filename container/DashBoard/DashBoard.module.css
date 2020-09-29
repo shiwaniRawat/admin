@@ -1,0 +1,32 @@
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+} 
+.heading{
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-left: 15px;
+
+
+} 
+.DashBoardWrapper{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+@media screen and (max-width: 1199px) {
+    .charts {
+      flex-direction: column;
+    }
+    .heading {
+      text-align: center;
+      padding-left: 0;
+    }
+    .DashBoardWrapper {
+      padding: 10px 20px;
+    }
+  }

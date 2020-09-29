@@ -1,0 +1,21 @@
+.ProductPageContainer {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+.ProductWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width: 1199px) {
+  .ProductPageContainer {
+    padding: 10px 20px;
+  }
+  .ProductWrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,75 @@
+.notificationMainWrapper{
+    padding: 8px;
+    background-color: #4e657a;
+    color: #fff;
+    font-size: 80%;
+    display: flex;
+
+
+} 
+.userPic>img{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    vertical-align: middle;
+    border-style: none;
+} 
+.detailsWrapper{
+    padding: 0 10px;
+
+} 
+.detailsWrapper>p{
+    margin-bottom: .5rem;
+    margin-top: 5px;
+} 
+.MainWrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 50%;
+    width: 100%;
+} 
+.MainWrapper>div {
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0#455c71;
+    max-height: 450px;
+    background-color: #435c70; 
+    height: 412px;
+    overflow: hidden; 
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 350px;
+
+} 
+.MainWrapper>div h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+} 
+.detailsRows{
+    overflow-y: scroll;
+    height: 90%;
+} 
+
+.notificationMainWrapper+.notificationMainWrapper{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .MainWrapper {
+      width: 100%;
+      max-width: 60%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .MainWrapper {
+      max-width: 70%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .MainWrapper {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,78 @@
+
+.MainWrapper{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px; 
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 350px;
+} 
+.MainWrapper > div {
+    padding: 30px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    background-color: #435c70;
+    height: 100%;
+
+} 
+.MainWrapper>div h2 {
+    margin-top: 0;
+    font-size: 1.1rem;
+} 
+.TableWrapper{
+    max-height: 415px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    width: 100%;
+} 
+.TableContainer{
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%; 
+    font-size: 85%;
+    border-collapse: collapse; 
+} 
+.thead {
+    background-color: #486177;
+    color: #fff;
+} 
+.TableContainer .thead th {
+    border-bottom: 0;
+    vertical-align: bottom; 
+    border-top: 1px solid #415a70;
+    padding: 15px 0;
+    text-align: center; 
+    min-width: 120px; 
+    width : auto ; 
+    height : auto ; 
+
+} 
+.TableContainer tbody th{
+    border-bottom: 0;
+    vertical-align: bottom; 
+    border-top: 1px solid #415a70;
+    padding: 15px 0 !important;
+    text-align: center;
+    min-width: 120px; 
+    width : auto ; 
+    height : auto ; 
+} 
+.TableContainer tbody td {
+    border-bottom: 0;
+    vertical-align: bottom; 
+    border-top: 1px solid #415a70;
+    padding: 15px 0 !important;
+    text-align: center;
+    min-width: 120px; 
+    width : auto ; 
+    height : auto ; 
+
+
+}
+@media (max-width: 1200px) {
+    .MainWrapper {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
